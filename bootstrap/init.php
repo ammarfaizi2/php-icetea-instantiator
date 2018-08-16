@@ -10,6 +10,11 @@ if (!defined("ICETEA_INIT")) {
 		exit(1);
 	}
 
+	if (!defined("SRCPATH")) {
+		print "SRCPATH is not defined!\n";
+		exit(1);
+	}
+
 	/**
 	 * @param string $class
 	 * @return void
